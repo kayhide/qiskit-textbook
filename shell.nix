@@ -33,6 +33,7 @@ in
 pkgs.mkShell {
   buildInputs = with pkgs; [
     my-env
+    poetry
   ];
 
   shellHook = ''
