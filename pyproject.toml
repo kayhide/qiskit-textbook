@@ -8,6 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = "^3.11"
 pylatexenc = "^2.10"
 numexpr = "^2.8.1"
+notebook = "^6.5.4"
 qiskit_textbook = { path = "./vendor/qiskit-textbook/qiskit-textbook-src" }
 
 [tool.poetry.dev-dependencies]
